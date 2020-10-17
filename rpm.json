@@ -1,0 +1,39 @@
+{
+    "extensions": {
+        "enabled": [
+            "python_venv",
+            "blocks"
+        ]
+    },
+    "core": {
+        "name": "issue",
+        "version": "0.1.0",
+        "release": "1",
+        "summary": "issue",
+        "license": "proprietary",
+        "requires": [
+            "python36"
+        ],
+        "provides": [],
+        "obsoletes": []
+    },
+    "python_venv": {
+        "cmd": "virtualenv",
+        "flags": [],
+        "name": "issue",
+        "path": "/opt/issue",
+        "python": "python3.6",
+        "require_setup_py": false,
+        "requirements": [
+            "requirements.txt"
+        ],
+        "strip_binaries": false,
+        "use_pip_install": true,
+        "remove_pycache": true
+    },
+    "blocks": {
+        "desc": [
+            "this is an issue package"
+        ]
+    }
+}
